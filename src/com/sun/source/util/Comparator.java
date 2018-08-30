@@ -1,10 +1,5 @@
 package com.sun.source.util;
 
-import java.io.Serializable;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.Objects;
-import java.util.function.Function;
 
 
 public interface Comparator<T>
