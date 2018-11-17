@@ -13,5 +13,7 @@ public static void main(String[] args)
 	MyThread mythead=new MyThread();
 	mythead.start();
 	System.out.println("运行结束!");
+
+	new Thread(()->System.out.println("java8 语法 start")).start();
 }
 }
